@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzz Hub - Share Your Travel Experiences</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Buzz Hub</h1>
+            <h2>Share Your Travel Experiences</h2>
+        </header>
+        
+        <div class="post-form">
+            <h3>New Post</h3>
+            <input type="text" id="title" placeholder="Title of your experience" required>
+            <textarea id="description" placeholder="Describe your experience..."></textarea>
+            <input type="file" id="image-upload" accept="image/*">
+            <button id="post-button">Post</button>
+        </div>
+        
+        <div class="post-feed" id="post-feed">
+            <h3>Latest Posts</h3>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
